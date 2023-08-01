@@ -44,14 +44,9 @@ function App() {
   return (
     <>
       <TopBar />
-      <main className="container">
-        <section className="sidebar">Recent Donations</section>
-        <section className="">
-          Progress
-          Donation Form
-        </section>
-      </main>
       <DonationForm/>
+      <Progress/>
+      <RecentDonations/>
     </>
   );
 }
