@@ -44,9 +44,9 @@ function App() {
   return (
     <>
       <TopBar />
-      <DonationForm/>
-      <Progress/>
       <RecentDonations/>
+      <Progress/>
+      <DonationForm/>
     </>
   );
 }
